@@ -28,6 +28,11 @@ namespace Business.Business
             return _userrepository.Get(g => g.Id == obj.Id).ToList();
         }
 
+        public List<Users> ListAll()
+        {
+            return _userrepository.GetTodos().ToList();
+        }
+
         public void Register(Users obj)
         {
             _userrepository.Adicionar(obj);

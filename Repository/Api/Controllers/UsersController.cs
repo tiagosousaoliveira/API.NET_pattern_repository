@@ -1,8 +1,7 @@
 ﻿using Business.Business;
 using Domain.Entity;
-using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -26,11 +25,12 @@ namespace Api.Controllers
 
         [HttpGet]
         [Route("api/List")]
-        public Task<HttpResponseMessage> Get([FromBody]dynamic body)
+        public Task<HttpResponseMessage> Get()
         {
+            UserBusiness user = new UserBusiness();
+            List<Users> listausers =  user.ListAll();
 
-
-            return Task.FromResult<HttpResponseMessage>(Request.CreateResponse(HttpStatusCode.Created, new { Message = "TESTE" }));
+            return Task.FromResult<HttpResponseMessage>(Request.CreateResponse(HttpStatusCode.Created, new { Message = listausers }));
         }
     }
 }

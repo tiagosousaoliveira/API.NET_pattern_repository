@@ -14,6 +14,7 @@ namespace Domain.IContracts.IBusiness
         void Delete(Users obj);
         void Update(Users obj);
         List<Users> List(Users obj);
+        List<Users> ListAll();
 
     }
 }
