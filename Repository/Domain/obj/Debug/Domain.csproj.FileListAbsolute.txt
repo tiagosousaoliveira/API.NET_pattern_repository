@@ -1,0 +1,5 @@
+C:\Users\Prolins-Tiago\Documents\Visual Studio 2015\Projects\Teste Padroes\Repository\Domain\bin\Debug\Domain.dll
+C:\Users\Prolins-Tiago\Documents\Visual Studio 2015\Projects\Teste Padroes\Repository\Domain\bin\Debug\Domain.pdb
+C:\Users\Prolins-Tiago\Documents\Visual Studio 2015\Projects\Teste Padroes\Repository\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Prolins-Tiago\Documents\Visual Studio 2015\Projects\Teste Padroes\Repository\Domain\obj\Debug\Domain.dll
+C:\Users\Prolins-Tiago\Documents\Visual Studio 2015\Projects\Teste Padroes\Repository\Domain\obj\Debug\Domain.pdb
